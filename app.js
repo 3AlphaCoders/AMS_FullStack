@@ -56,7 +56,7 @@ app.use("/api/v1/notice", [authenticateUser, noticeRouter]);
 app.use(notFoundHandler);
 app.use(errorHandlerMiddleware);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 
 const start = async () => {
   try {
