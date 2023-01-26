@@ -1,0 +1,95 @@
+.single {
+    display: flex;
+    width: 100%;
+    .singleContainer {
+      flex: 6;
+  
+      .top {
+        padding: 20px;
+        
+  
+        .left {
+          flex: 1;
+          -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+          box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+          padding: 20px;
+          position: relative;
+          margin-bottom: 20px;
+
+          .editButton {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 5px;
+            font-size: 12px;
+            color: #7451f8;
+            background-color: #7551f818;
+            cursor: pointer;
+            border-radius: 0px 0px 0px 5px;
+          }
+  
+          .item {
+            padding:0 20px;
+  
+            .details {
+              .profileItems{
+                display: flex;
+                flex-wrap: wrap;
+                // width: 500px;
+                justify-content: space-between;
+                margin-top: 10px;
+              }
+              .itemTitle {
+                margin-bottom: 20px;
+                color: #555;
+              }
+  
+              .detailItem {
+                width: 300px;
+                margin-bottom: 10px;
+                font-size: 14px;
+  
+                .itemKey {
+                  font-weight: bold;
+                  color: gray;
+                  margin-right: 5px;
+                }
+  
+                .itemValue {
+                  font-weight: 300;
+                }
+              }
+            }
+          }
+        }
+  
+        .right {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 20px;
+          gap: 20px;
+        }
+      }
+  
+      .bottom {
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 20px;
+        margin: 10px 20px;
+
+
+        .pending{
+          background-color: yellow;
+          border-radius: 20px;
+          padding:5px 10px;
+        }
+      }
+  
+      .title {
+        font-size: 20px;
+        color: rgb(117, 117, 117);
+        margin-bottom: 20px;
+      }
+    }
+  }
+  

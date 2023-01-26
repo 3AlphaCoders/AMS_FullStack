@@ -1,0 +1,21 @@
+.verifyEmail{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #nfContainer{
+        display: none;
+        text-align: center;
+        
+        h3{
+            color: rgb(94, 155, 3);
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        p{
+            color: rgb(152, 0, 0);
+            margin-bottom: 10px;
+        }
+    }
+}

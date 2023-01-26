@@ -1,0 +1,38 @@
+.widget{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding: 10px;
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius: 10px;
+    height: 100px;
+
+    .wLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        .wTitle{
+            font-weight: bold;
+            font-size: 16px;
+            color: rgb(176, 176, 176);
+        }
+        .wCounter{
+            font-size: 28px;
+            font-weight: 400;
+        }
+        .wLink{
+            width: max-content;
+            font-size: 12px;
+            border-bottom: 1px solid rgb(154, 154, 154);
+        }
+       
+        .wIcon{
+            font-size: 28px;
+            padding: 5px;
+            border-radius: 5px;
+            align-self: flex-end;
+        }
+    }
+    
+}

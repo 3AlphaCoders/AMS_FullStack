@@ -1,0 +1,21 @@
+.homeTable{
+
+    
+    .status{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Approved{
+            color: rgb(0, 149, 0);
+            background-color: rgba(0, 255, 0, 0.237);
+        }
+        &.Pending{
+            color: rgb(165, 119, 0);
+            background-color: rgba(255, 255, 0, 0.231);
+        }
+        &.Reject{
+            color: rgb(168, 0, 0);
+            background-color: rgba(255, 0, 0, 0.267);
+        }
+    }
+}

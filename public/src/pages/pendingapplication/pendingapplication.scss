@@ -1,0 +1,52 @@
+.pendingApplication {
+    display: flex;
+    width: 100%;
+  
+    .courseContainer{
+        flex:6;
+
+        .courseTitle{
+            width: 100%;
+            padding:20px 30px;
+            margin:10px 0;
+            font-size: 24px;
+            color: gray;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 2px 2px 5px 1px rgb(206, 206, 206);
+        
+            .courseLink{
+              text-decoration: none;
+              color: green;
+              font-size: 16px;
+              font-weight: 400;
+              border: 1px solid green;
+              padding: 5px;
+              border-radius: 5px;
+              cursor: pointer;
+            }
+          }
+
+          .datagrid{
+            height: 500px;
+            box-shadow: 2px 2px 5px 1px rgb(206, 206, 206);
+          }
+
+          .cellAction {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        
+            .viewButton {
+              padding: 2px 5px;
+              border-radius: 5px;
+              color: darkblue;
+              border: 1px dotted rgba(0, 0, 139, 0.596);
+              cursor: pointer;
+            }
+          }
+    }
+  
+  }
